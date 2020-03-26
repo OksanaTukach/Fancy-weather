@@ -1,0 +1,168 @@
+.weather {
+  width: 50%;
+  padding-left: 6.25%; }
+  @media only screen and (max-width: 1200px) {
+    .weather {
+      padding-left: 3%; } }
+  @media only screen and (max-width: 1024px) {
+    .weather {
+      width: 100%; } }
+
+.weather .weather__today .info {
+  padding-top: 50px; }
+  .weather .weather__today .info h1 {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .weather .weather__today .info h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF; }
+    .weather .weather__today .info h3 span {
+      padding-left: 15px; }
+  @media only screen and (max-width: 500px) {
+    .weather .weather__today .info {
+      padding-top: 20px; } }
+
+.weather .weather__today .temperature-summary {
+  display: flex;
+  justify-content: space-around; }
+  .weather .weather__today .temperature-summary p.temperature {
+    font-weight: bold;
+    font-size: 225px;
+    line-height: 373px;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+    .weather .weather__today .temperature-summary p.temperature span {
+      font-weight: bold;
+      font-size: 33%;
+      line-height: 0px;
+      position: relative;
+      z-index: 10;
+      bottom: 150px;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+      @media only screen and (max-width: 1100px) {
+        .weather .weather__today .temperature-summary p.temperature span {
+          bottom: 100px; } }
+      @media only screen and (max-width: 550px) {
+        .weather .weather__today .temperature-summary p.temperature span {
+          bottom: 85px; } }
+      @media only screen and (max-width: 550px) {
+        .weather .weather__today .temperature-summary p.temperature span {
+          bottom: 55px; } }
+    @media only screen and (max-width: 1350px) {
+      .weather .weather__today .temperature-summary p.temperature {
+        font-size: 185px; } }
+    @media only screen and (max-width: 1200px) {
+      .weather .weather__today .temperature-summary p.temperature {
+        font-size: 150px; } }
+    @media only screen and (max-width: 700px) {
+      .weather .weather__today .temperature-summary p.temperature {
+        font-size: 165px; } }
+    @media only screen and (max-width: 550px) {
+      .weather .weather__today .temperature-summary p.temperature {
+        font-size: 125px; } }
+    @media only screen and (max-width: 500px) {
+      .weather .weather__today .temperature-summary p.temperature {
+        font-size: 100px; } }
+    @media only screen and (max-width: 400px) {
+      .weather .weather__today .temperature-summary p.temperature {
+        font-size: 75px; } }
+  .weather .weather__today .temperature-summary ul {
+    list-style-type: none;
+    padding-top: 160px; }
+    .weather .weather__today .temperature-summary ul li {
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 37px;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+      @media only screen and (max-width: 500px) {
+        .weather .weather__today .temperature-summary ul li {
+          font-size: 18px; } }
+      @media only screen and (max-width: 450px) {
+        .weather .weather__today .temperature-summary ul li {
+          font-size: 17px; } }
+      @media only screen and (max-width: 400px) {
+        .weather .weather__today .temperature-summary ul li {
+          font-size: 16px; } }
+      @media only screen and (max-width: 350px) {
+        .weather .weather__today .temperature-summary ul li {
+          font-size: 15px; } }
+  .weather .weather__today .temperature-summary img {
+    width: 155px;
+    height: 155px; }
+    @media only screen and (max-width: 1250px) {
+      .weather .weather__today .temperature-summary img {
+        width: 115px;
+        height: 115px; } }
+    @media only screen and (max-width: 700px) {
+      .weather .weather__today .temperature-summary img {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        top: 75px; } }
+    @media only screen and (max-width: 500px) {
+      .weather .weather__today .temperature-summary img {
+        width: 65px;
+        height: 65px; } }
+  @media only screen and (max-width: 1024px) {
+    .weather .weather__today .temperature-summary {
+      width: 100%; } }
+
+.weather .weather__three-days {
+  display: flex;
+  justify-content: space-around; }
+  .weather .weather__three-days p.day-week {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+    @media only screen and (max-width: 450px) {
+      .weather .weather__three-days p.day-week {
+        font-size: 17px; } }
+    @media only screen and (max-width: 400px) {
+      .weather .weather__three-days p.day-week {
+        font-size: 16px; } }
+    @media only screen and (max-width: 350px) {
+      .weather .weather__three-days p.day-week {
+        font-size: 15px; } }
+  .weather .weather__three-days .info-day {
+    display: flex; }
+  .weather .weather__three-days p.day-temperature {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 98px;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+    @media only screen and (max-width: 600px) {
+      .weather .weather__three-days p.day-temperature {
+        font-size: 65px; } }
+    @media only screen and (max-width: 500px) {
+      .weather .weather__three-days p.day-temperature {
+        font-size: 50px;
+        line-height: 50px; } }
+    @media only screen and (max-width: 400px) {
+      .weather .weather__three-days p.day-temperature {
+        font-size: 35px; } }
+  .weather .weather__three-days img.day-icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px; }
+    @media only screen and (max-width: 600px) {
+      .weather .weather__three-days img.day-icon {
+        width: 50px;
+        height: 50px; } }
+    @media only screen and (max-width: 500px) {
+      .weather .weather__three-days img.day-icon {
+        width: 40px;
+        height: 40px; } }
+    @media only screen and (max-width: 400px) {
+      .weather .weather__three-days img.day-icon {
+        width: 25px;
+        height: 25px; } }

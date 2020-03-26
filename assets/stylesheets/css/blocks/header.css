@@ -1,0 +1,106 @@
+header {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 30px; }
+  @media only screen and (max-width: 700px) {
+    header {
+      padding-top: 10px;
+      display: block; } }
+
+header .control-panel {
+  display: flex;
+  justify-content: space-between;
+  width: 23%;
+  min-width: 240px;
+  margin-left: 6.25%; }
+  header .control-panel .button-change-background {
+    width: 44px;
+    height: 44px;
+    background: url("../../data/images/RefreshBG.svg") 100% 100% no-repeat no-repeat;
+    cursor: pointer; }
+  header .control-panel form.change-language {
+    width: 71px;
+    height: 44px;
+    cursor: pointer; }
+    header .control-panel form.change-language select {
+      width: 100%;
+      height: 100%;
+      background: #aeb5b9;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      border: 0;
+      border-radius: 5px;
+      cursor: pointer; }
+  header .control-panel .buttons-change-temperature-units {
+    display: flex;
+    width: 40%; }
+    header .control-panel .buttons-change-temperature-units .button-fahrenheit, header .control-panel .buttons-change-temperature-units .button-celsius {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 44px;
+      width: 50%;
+      background: rgba(76, 82, 85, 0.4);
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      cursor: pointer; }
+      header .control-panel .buttons-change-temperature-units .button-fahrenheit.active, header .control-panel .buttons-change-temperature-units .button-celsius.active {
+        background: #aeb5b9; }
+    header .control-panel .buttons-change-temperature-units .button-fahrenheit {
+      border-radius: 5px 0 0 5px; }
+    header .control-panel .buttons-change-temperature-units .button-celsius {
+      border-radius: 0 5px 5px 0; }
+
+header form.form-search {
+  width: 35%;
+  height: 44px;
+  margin-left: 30%;
+  display: flex; }
+  header form.form-search input[type="search"] {
+    height: 100%;
+    width: 73%;
+    background: rgba(76, 82, 85, 0.4);
+    border: 1px solid rgba(228, 227, 227, 0.2);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer; }
+  header form.form-search input[type="submit"] {
+    position: relative;
+    right: 5px;
+    height: 100%;
+    width: 25%;
+    background: #aeb5b9;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer; }
+  header form.form-search .voice-search {
+    height: 100%;
+    width: 35px;
+    background: url("../../data/images/Vector (1).svg") 100% 100% no-repeat no-repeat;
+    background-color: #aeb5b9;
+    background-size: contain; }
+  @media only screen and (max-width: 1024px) {
+    header form.form-search {
+      width: 45%;
+      height: 44px;
+      margin-left: 20%; } }
+  @media only screen and (max-width: 700px) {
+    header form.form-search {
+      width: 80%;
+      margin: 20px 0 0 20px; } }
